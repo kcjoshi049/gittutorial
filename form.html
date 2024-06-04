@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+<body>
+    <h1>Application form</h1>
+    <form action="post">
+        <div class="username">
+            <label for="un">fist name :- </label>
+            <input type="text" name="username" id="un" placeholder="Enter first name">
+        </div>
+        <div class="lastname">
+            <label for="ln">last name :- </label>
+            <input type="text" name="username" id="ln" placeholder="Enter last name">
+        </div>
+        <div class="DOB">
+            <label for="dateofbirth">Date of birth :- </label>
+            <input type="date" name="DOB" id="dateofbirth">
+        </div>
+        <div class="age">
+            <label for="Age">Age :- </label>
+            <input type="number" name="age" id="Age">
+        </div>
+        <div>
+            <label for="gender">Gender :- </label>
+            <select name="G" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <div class="mail">
+            <label for="email">Email :- </label>
+            <input type="email" name="mail" id="email">
+        </div>
+        <div>
+            <label for="PL">Programming language :- </label>
+            <label for="Java">Java </label>
+            <input type="radio" name="PL" id="Java">
+            <label for="JavaScript">JavaScript </label>
+            <input type="radio" name="PL" id="JavaScript">
+            <label for="c">C </label>
+            <input type="radio" name="PL" id="c">
+        </div>
+        <div class="pass">
+            <label for="password">Password :- </label>
+            <input type="password" name="pass" id="password">
+        </div>
+        <div class="cpass">
+            <label for="cpassword">Confirm Password :- </label>
+            <input type="password" name="cpass" id="cpassword">
+        </div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
