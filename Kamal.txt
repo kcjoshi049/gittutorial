@@ -1,2 +1,0 @@
-Hello this is our text file.
-author ~kamal chandra joshi

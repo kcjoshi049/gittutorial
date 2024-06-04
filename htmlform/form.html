@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="finaldiv">
+        <h1>Application form</h1>
+        <div class="name">
+            <div class="firstname">
+                <label for="fname">first name :- </label>
+                <input type="text" name="username" id="fname">
+            </div>
+            <div class="lastname">
+                <label for="lname">last name :- </label>
+                <input type="text" name="username" id="lname">
+            </div>
+        </div>
+        <div class="dobage">
+            <div class="DOB">
+                <label for="dateofbirth">date of birth :- </label>
+                <input type="date" name="DOB" id="dateofbirth">
+            </div>
+            <div class="age">
+                <label for="Age">age :- </label>
+                <input type="number" name="age" id="Age">
+            </div>
+        </div>
+        <div class="genmail">
+            <div class="gender">
+                <label for="Gender">gender :- </label>
+                <select name="gender" id="Gender">
+                    <option value="gender">female</option>
+                    <option value="gender" selected>male</option>
+                    <option value="gender">others</option>
+                </select>
+            </div>
+            <div class="email">
+                <label for="mail">email :- </label>
+                <input type="email" name="Mial" id="mail">
+            </div>
+        </div>
+            <div class="pos">
+                <label for="position">position :- </label>
+                <input type="radio" name="position" id="jd">
+                <label for="jd">junior developer </label>
+                <input type="radio" name="position" id="mld">
+                <label for="mld">mid-level developer </label>
+                <input type="radio" name="position" id="sd">
+                <label for="sd">senior developer</label>
+            </div>
+            <div class="PL">
+                <label for="programminglanuage">programming languages :- </label>
+                <label for="J"> java </label>
+                <input type="checkbox" name="java" id="J">
+                <label for="c++">c++</label>
+                <input type="checkbox" name="cpp" id="c++">
+                <label for="python">python</label>
+                <input type="checkbox" name="py" id="python">
+            </div>
+            <div class="password">
+                <div class="pass">
+                    <label for="P">passoword :- </label>
+                    <input type="password" name="pass" id="P">
+                </div>
+                <div class="cpass">
+                    <label for="CP">confirm password :- </label>
+                    <input type="password" name="pass" id="CP">
+                </div>
+            </div>
+            <div class="button">
+                <div class="FB">
+                    <input type="submit" value="submit">
+                </div>
+                <div class="SB">
+                    <input type="reset" value="reset">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

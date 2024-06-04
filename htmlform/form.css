@@ -1,0 +1,85 @@
+.finaldiv{
+    border:5px solid darkgray;
+    width:650px;
+    margin:40px 0px 0px 400px;
+    height:320px;
+    background-color: rgba(167, 205, 220, 0.511);
+}
+h1{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color:rgba(4, 108, 73, 0.78);
+}
+.finaldiv > div{
+    padding-left:15px;
+    padding-bottom:10px;
+}
+.lastname{
+    float: right;
+    margin-right:30px;
+}
+.firstname{
+    float:left;
+}
+.DOB{
+    float:left;
+}
+.age{
+    float:right;
+    margin-right:30px;
+}
+.gender{
+    float:left;
+}
+.email{
+    float:right;
+    margin-right:30px;
+}
+.name{
+    margin-bottom:25px;
+}
+.dobage{
+    margin-bottom:25px;
+}
+.genmail{
+    margin-bottom:25px;
+}
+.pass{
+    float:left;
+}
+.cpass{
+    float:right;
+    margin-right:30px;
+}
+.password{
+    margin-bottom:25px;
+}
+.age > label{
+    padding-right:40px;
+}
+.email>label{
+    padding-right:27px;
+}
+.firstname > input{
+    margin-left:12px;
+}
+.FB{
+    float:left;
+    margin-left:90px;
+}
+.SB{
+    float:right;
+    margin-right:200px;
+}
+.name > div > input{
+    border-radius:5px;
+}
+.dobage > div > input{
+    border-radius:5px;
+}
+.email > input{
+    border-radius:5px;
+}
+.password > div > input{
+    border-radius:5px;
+}
