@@ -1,0 +1,59 @@
+.vk {
+    color: rgb(0, 0, 0);
+    background-color: rgb(204, 204, 204);
+    width: 80vw;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 9px 10px 20px 4px rgb(204,204,204);
+}
+
+img {
+    border: 5px solid blue;
+    border-radius: 150px;
+    outline: 3px solid red;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    scroll-behavior: auto;
+    margin-left: 473px;
+    margin-top: 10px;
+    box-shadow: 12px 8px 12px 3px rgba(128, 128, 128, 0.593);
+}
+
+.vk>h2,
+.vk>div {
+    padding-left: 20px;
+}
+
+.vk>div>h2 {
+    color: rgb(194, 2, 2);
+}
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing:5px;
+}
+
+li {
+    font-size: 17px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 2px;
+}
+
+ul {
+    line-break: 5px;
+    list-style:"👉";
+}
+.fdiv > p,.ten > p{
+    font-family:"Ubuntu",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 2px;
+}
+body{
+    background-color:rgb(52, 86, 139);
+}
