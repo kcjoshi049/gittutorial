@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .fdiv {
+            border: 1px solid black;
+            width: 25vw;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .image {
+            border: 1px solid #000000;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        .fdiv>div {
+            margin: 20px;
+        }
+
+        button {
+            background-color: rgba(177, 244, 244, 0.761);
+            border: 1px rgba(177, 245, 245, 0.761);
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 3px;
+            width: 96px;
+            height: 27px;
+        }
+
+        #sb {
+            margin-left: 40px;
+        }
+
+        .tdiv {
+            font-family: "Ubuntu", sans-serif;
+        }
+
+        .tdiv>h1 {
+            font-weight: 200;
+            margin-bottom: 15px;
+        }
+
+        .tdiv>div {
+            word-spacing: 10px;
+        }
+
+        .rm {
+            text-align: center;
+        }
+
+        button>a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fdiv">
+        <div class="image">
+            <img
+                src=https://plus.unsplash.com/premium_photo-1717683581800-5328174eb684?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+        </div>
+        <div class="sdiv">
+            <button id="fb">Nature</button>
+            <button id="sb">Lake</button>
+        </div>
+        <div class="tdiv">
+            <h1>Lago di Braies</h1>
+            <div class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eligendi expedita quis est rerum inventore
+                reiciendis eos possimus laboriosam repudiandae.
+            </div>
+        </div>
+        <div class="rm">
+            <button>
+                <a href="https://www.unsplash.com" target="_blank">Read More</a>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

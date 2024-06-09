@@ -63,14 +63,6 @@ h1{
 .firstname > input{
     margin-left:12px;
 }
-.FB{
-    float:left;
-    margin-left:90px;
-}
-.SB{
-    float:right;
-    margin-right:200px;
-}
 .name > div > input{
     border-radius:5px;
 }
@@ -82,4 +74,16 @@ h1{
 }
 .password > div > input{
     border-radius:5px;
+}
+button{
+    width:125px;
+    border-radius:10px;
+    border:1px solid rgb(0, 0, 0);
+    padding:5px;
+}
+#sb{
+    margin-left:225px;
+}
+#fb{
+    margin-left:100px;
 }
