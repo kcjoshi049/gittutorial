@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="post">
+        <div class="finaldiv">
+            <h1>Registration form</h1>
+            <div class="name">
+                <div class="firstname">
+                    <label for="fname">first name :- </label>
+                    <input type="text" name="username" id="fname" required>
+                </div>
+                <div class="lastname">
+                    <label for="lname">last name :- </label>
+                    <input type="text" name="username" id="lname" required>
+                </div>
+            </div>
+            <div class="dobage">
+                <div class="DOB">
+                    <label for="dateofbirth">date of birth :- </label>
+                    <input type="date" name="DOB" id="dateofbirth" required>
+                </div>
+                <div class="age">
+                    <label for="Age">age :- </label>
+                    <input type="number" name="age" id="Age" required>
+                </div>
+            </div>
+            <div class="genmail">
+                <div class="gender">
+                    <label for="Gender">gender :- </label>
+                    <select name="gender" id="Gender" required>
+                        <option value="Gender">female</option>
+                        <option value="Gender" selected>male</option>
+                        <option value="Gender">others</option>
+                    </select>
+                </div>
+                <div class="email">
+                    <label for="mail">email :- </label>
+                    <input type="email" name="Mial" id="mail" required>
+                </div>
+            </div>
+            <div class="demo" style="padding-bottom: 35px;">
+                <div class="Donation_date">
+                    <label for="lastdate">last donation date :- </label>
+                    <input type="date" name="ldate" id="lastdate" required>
+                </div>
+                <div class="BG">
+                    <label for="bloodgroup">blood group :- </label>
+                    <select name="bloodgroup" id="bg" required>
+                        <option value="bg">o+</option>
+                        <option value="bg">o-</option>
+                        <option value="bg">B+</option>
+                        <option value="bg">B-</option>
+                        <option value="bg">AB+</option>
+                        <option value="bg">AB-</option>
+                        <option value="bg">A+</option>
+                        <option value="bg">A-</option>
+                    </select>
+                </div>
+            </div>
+            <div class="no">
+                <label for="pno">phone no :- </label>
+                <input type="number" name="no" id="pno" required>
+            </div>
+            <div class="add">
+                <label for="address">address :- </label>
+                <input type="text" name="add" id="address" required>
+            </div>
+            <div class="sub" style="padding-left:130px">
+                <button value="submit" type="submit">
+                    submit
+                </button>
+            </div>
+            <div class="res" style="padding-left:170px">
+                <button value="reset" type="reset">
+                    reset
+                </button>
+            </div>
+        </div>
+        </div>
+    </form>
+</body>
+
+</html>

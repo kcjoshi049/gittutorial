@@ -1,0 +1,108 @@
+body{
+    background-image: url("rbc2.jpg");
+    background-size:cover;
+
+}
+.finaldiv{
+    padding-top:20px;
+    border:5px rgba(255, 0, 0, 0.394);
+    width:650px;
+    margin:160px 0px 0px 440px;
+    height:400px;
+    background-color: rgba(10, 8, 20, 0.343);
+    border-radius:10px;
+}
+h1{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color:rgba(12, 38, 236, 0.78);
+}
+.finaldiv > div{
+    padding-left:15px;
+    padding-bottom:10px;
+    color:yellow;
+    font-size:18px;
+}
+.lastname{
+    float: right;
+    margin-right:30px;
+}
+.firstname{
+    float:left;
+}
+.DOB{
+    float:left;
+}
+.age{
+    float:right;
+    margin-right:30px;
+}
+.gender{
+    float:left;
+}
+.email{
+    float:right;
+    margin-right:30px;
+}
+.name{
+    margin-bottom:25px;
+}
+.dobage{
+    margin-bottom:25px;
+}
+.genmail{
+    margin-bottom:25px;
+}
+.age > label{
+    padding-right:40px;
+}
+.email>label{
+    padding-right:27px;
+}
+.firstname > input{
+    margin-left:12px;
+}
+.name > div > input{
+    border-radius:5px;
+}
+.dobage > div > input{
+    border-radius:5px;
+}
+.email > input{
+    border-radius:5px;
+}
+button{
+    width:125px;
+    border-radius:10px;
+    border:1px solid rgb(0, 0, 0);
+    padding:5px;
+}
+button:hover{
+    background-color:gray;
+}
+.Donation_date{
+    float:left;
+}
+.BG{
+    float: right;
+    margin-right:137px;
+}
+.no{
+    display:inline;
+}
+.demo{
+    padding-bottom: 35px;
+}
+.add{
+    padding-top:15px;
+}
+.add>input{
+    margin-left:11px;
+}
+.add>input,.no>input{
+    border-radius:5px;
+}
+.sub,.res{
+    display:inline;
+}
+
