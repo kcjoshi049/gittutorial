@@ -9,10 +9,10 @@
 
 img {
     border: 5px solid blue;
-    border-radius: 150px;
+    border-radius: 200px;
     outline: 3px solid red;
     display: inline-block;
-    width: 300px;
+    width: 350px;
     height: 300px;
     scroll-behavior: auto;
     margin-left: 473px;

@@ -1,9 +1,10 @@
 .finaldiv{
     border:5px solid darkgray;
     width:650px;
-    margin:40px 0px 0px 400px;
-    height:320px;
+    margin:160px 0px 0px 440px;
+    height:350px;
     background-color: rgba(167, 205, 220, 0.511);
+    border-radius:10px;
 }
 h1{
     text-align: center;
@@ -44,16 +45,6 @@ h1{
 .genmail{
     margin-bottom:25px;
 }
-.pass{
-    float:left;
-}
-.cpass{
-    float:right;
-    margin-right:30px;
-}
-.password{
-    margin-bottom:25px;
-}
 .age > label{
     padding-right:40px;
 }
@@ -72,18 +63,38 @@ h1{
 .email > input{
     border-radius:5px;
 }
-.password > div > input{
-    border-radius:5px;
-}
 button{
     width:125px;
     border-radius:10px;
     border:1px solid rgb(0, 0, 0);
     padding:5px;
 }
-#sb{
-    margin-left:225px;
+button:hover{
+    background-color:gray;
 }
-#fb{
-    margin-left:100px;
+.Donation_date{
+    float:left;
 }
+.BG{
+    float: right;
+    margin-right:137px;
+}
+.no{
+    display:inline;
+}
+.demo{
+    padding-bottom: 35px;
+}
+.add{
+    padding-top:15px;
+}
+.add>input{
+    margin-left:11px;
+}
+.add>input,.no>input{
+    border-radius:5px;
+}
+.sub,.res{
+    display:inline;
+}
+

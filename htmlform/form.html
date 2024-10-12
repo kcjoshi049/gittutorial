@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,76 +12,83 @@
         rel="stylesheet">
     <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
     <form action="post">
-    <div class="finaldiv">
-        <h1>Application form</h1>
-        <div class="name">
-            <div class="firstname">
-                <label for="fname">first name :- </label>
-                <input type="text" name="username" id="fname">
-            </div>
-            <div class="lastname">
-                <label for="lname">last name :- </label>
-                <input type="text" name="username" id="lname">
-            </div>
-        </div>
-        <div class="dobage">
-            <div class="DOB">
-                <label for="dateofbirth">date of birth :- </label>
-                <input type="date" name="DOB" id="dateofbirth">
-            </div>
-            <div class="age">
-                <label for="Age">age :- </label>
-                <input type="number" name="age" id="Age">
-            </div>
-        </div>
-        <div class="genmail">
-            <div class="gender">
-                <label for="Gender">gender :- </label>
-                <select name="gender" id="Gender">
-                    <option value="gender">female</option>
-                    <option value="gender" selected>male</option>
-                    <option value="gender">others</option>
-                </select>
-            </div>
-            <div class="email">
-                <label for="mail">email :- </label>
-                <input type="email" name="Mial" id="mail">
-            </div>
-        </div>
-            <div class="pos">
-                <label for="position">position :- </label>
-                <input type="radio" name="position" id="jd">
-                <label for="jd">junior developer </label>
-                <input type="radio" name="position" id="mld">
-                <label for="mld">mid-level developer </label>
-                <input type="radio" name="position" id="sd">
-                <label for="sd">senior developer</label>
-            </div>
-            <div class="PL">
-                <label for="programminglanuage">programming languages :- </label>
-                <label for="J"> java </label>
-                <input type="checkbox" name="java" id="J">
-                <label for="c++">c++</label>
-                <input type="checkbox" name="cpp" id="c++">
-                <label for="python">python</label>
-                <input type="checkbox" name="py" id="python">
-            </div>
-            <div class="password">
-                <div class="pass">
-                    <label for="P">passoword :- </label>
-                    <input type="password" name="pass" id="P">
+        <div class="finaldiv">
+            <h1>Registration form</h1>
+            <div class="name">
+                <div class="firstname">
+                    <label for="fname">first name :- </label>
+                    <input type="text" name="username" id="fname">
                 </div>
-                <div class="cpass">
-                    <label for="CP">confirm password :- </label>
-                    <input type="password" name="pass" id="CP">
+                <div class="lastname">
+                    <label for="lname">last name :- </label>
+                    <input type="text" name="username" id="lname">
                 </div>
             </div>
-            <button type="submit" vlaue="submit" id="fb">submit</button>
-            <button type="reset" value="reset" id="sb">reset</button>
+            <div class="dobage">
+                <div class="DOB">
+                    <label for="dateofbirth">date of birth :- </label>
+                    <input type="date" name="DOB" id="dateofbirth">
+                </div>
+                <div class="age">
+                    <label for="Age">age :- </label>
+                    <input type="number" name="age" id="Age">
+                </div>
+            </div>
+            <div class="genmail">
+                <div class="gender">
+                    <label for="Gender">gender :- </label>
+                    <select name="gender" id="Gender">
+                        <option value="Gender">female</option>
+                        <option value="Gender" selected>male</option>
+                        <option value="Gender">others</option>
+                    </select>
+                </div>
+                <div class="email">
+                    <label for="mail">email :- </label>
+                    <input type="email" name="Mial" id="mail">
+                </div>
+            </div>
+            <div class="demo" style="padding-bottom: 35px;">
+                <div class="Donation_date">
+                    <label for="lastdate">last donation date :- </label>
+                    <input type="date" name="ldate" id="lastdate">
+                </div>
+                <div class="BG">
+                    <label for="bloodgroup">blood group :- </label>
+                    <select name="bloodgroup" id="bg">
+                        <option value="bg">o+</option>
+                        <option value="bg">o-</option>
+                        <option value="bg">B+</option>
+                        <option value="bg">B-</option>
+                        <option value="bg">AB+</option>
+                        <option value="bg">AB-</option>
+                    </select>
+                </div>
+            </div>
+            <div class="no">
+                <label for="pno">phone no :- </label>
+                <input type="number" name="no" id="pno">
+            </div>
+            <div class="add">
+                <label for="address">address :- </label>
+                <input type="text" name="add" id="address">
+            </div>
+            <div class="sub" style="padding-left:130px">
+                <button value="submit" type="submit">
+                    submit
+                </button>
+            </div>
+            <div class="res" style="padding-left:170px">
+                <button value="reset" type="reset">
+                    reset
+                </button>
+            </div>
         </div>
-    </div>
+        </div>
     </form>
 </body>
+
 </html>
