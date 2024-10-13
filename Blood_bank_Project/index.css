@@ -28,38 +28,31 @@ nav ul li{
   padding: 10px 10px;
   border-radius: 2px;
 }
-.sub-menu-1
+.sub-menu-1,.sub-menu-2
 {
   display: none;
 }
-nav ul li:hover .sub-menu-1
+nav ul li:hover .sub-menu-1,nav ul li:hover .sub-menu-2
 {
   display: block;
   position: absolute;
-  /*width: 150px;
-  display: list-item;
-  position: relative;*/
   background:#780606;
   margin-top: 10px;
   margin-left: -15px;
 }
-nav ul li:hover .sub-menu-1 ul
+nav ul li:hover .sub-menu-1 ul,nav ul li:hover .sub-menu-2
 {
-  /*color: #dc143c;
-  display: list-item;
-  position: absolute;
-  margin: 10px;*/
   display: block;
   margin: 10px;
 }
-nav ul li:hover .sub-menu-1 ul li
+nav ul li:hover .sub-menu-1 ul li,nav ul li:hover .sub-menu-2 ul li
 {
   width: 150px;
   padding: 10px;
   border-radius: 0;
   text-align: left;
 }
-nav ul li:hover .sub-menu-1 ul li:last-child
+nav ul li:hover .sub-menu-1 ul li:last-child,nav ul li:hover .sub-menu-2 ul li:last-child
 {
   border-bottom: none;
 }
@@ -150,4 +143,6 @@ p{
 .web{
   background-image: radial-gradient(#fff, #ffb0b0);
 }
-
+.login{
+  list-style-type: none;
+}

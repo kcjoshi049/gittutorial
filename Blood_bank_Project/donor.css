@@ -62,24 +62,6 @@ nav ul li:hover .sub-menu-1 ul li:last-child
 {
   border-bottom: none;
 }
-/*nav ul li:hover .sub-menu-2
-{
-  /*display: block;
-  position: absolute;
-  width: 150px;
-  display: list-item;
-  position: relative;
-  background: rgb(220,20,60);
-  margin-top: 15px;
-  margin-left: -15px;
-}
-nav ul li:hover .sub-menu-2 ul
-{
-  color: #dc143c;
-  display: list-item;
-  position: absolute;
-  margin: 10px;
-}*/
 a{
   text-decoration: none;
   color: #ffffff;
