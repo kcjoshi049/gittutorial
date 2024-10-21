@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userlogin</title>
+    <style>
+        .container {
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 25vw;
+            height: 60vh;
+            margin: auto;
+            margin-top: 100px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(30px);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 10px 7px 11px rgba(31, 22, 22, 0.2);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 35px;
+        }
+
+        #mail,
+        #pass,
+        #confirm-pass {
+            border: 2px solid black;
+            border-radius: 25px;
+            width: 260px;
+            height: 30px;
+            padding-left: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 10px 7px 11px rgba(31, 22, 22, 0.2);
+        }
+
+        #pass,
+        #confirm-pass {
+            margin-top: 20px;
+        }
+
+        button {
+            border-radius: 25px;
+            width: 285px;
+            height: 35px;
+            margin-top: 20px;
+            background-color: black;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        .check {
+            margin-top: 10px;
+            display: flex;
+            font-size: 15px;
+            width: 270px;
+            height: 30px;
+            justify-content: space-between;
+        }
+
+        .register {
+            margin-top: 10px;
+
+        }
+
+        strong {
+            color: black;
+        }
+
+        strong:hover {
+            color: blue;
+        }
+
+        .pass,
+        .mail {
+            position: relative;
+        }
+
+        input {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="post">
+            <div class="h1">
+                <h1>Login</h1>
+            </div>
+            <div class="mail">
+                <input type="email" name="email" id="mail" placeholder="email">
+            </div>
+            <div class="pass">
+                <input type="password" name="password" id="pass" placeholder="password">
+            </div>
+            <div class="check">
+                <div>
+                    <input type="checkbox" name="remember" id="rem">
+                    <label for="rem">Remember me</label>
+                </div>
+                <a href="#" style="color:black">Forgot passoword?</a>
+            </div>
+            <div class="button">
+                <button type="button" value="submit"><a href="#">Login</a></button>
+            </div>
+            <div class="register">
+                <h4 style="display:inline">don't have an account?</h4>&nbsp;&nbsp; <span><a
+                        href="registration.html"><strong>Register</strong></a></span>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
