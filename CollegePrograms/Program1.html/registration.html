@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <style>
+        .container {
+            border: 5px solid black;
+            border-radius: 10px;
+            width: 40vw;
+            height: 40vh;
+            margin: auto;
+            padding: 40px 20px 40px 20px;
+        }
+
+        .container>div {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="post">
+        <div class="container">
+            <div>
+                <h2>Registration form</h2>
+            </div>
+            <div class="name">
+                <div>
+                    <label for="fname">first name :- </label>&nbsp;&nbsp;
+                    <input type="text" name="name" id="fname">
+                </div>
+                <div>
+                    <label for="lname">last name :- </label>&nbsp;&nbsp;
+                    <input type="text" name="name" id="lname">
+                </div>
+            </div><br>
+            <div class="mails">
+                <div>
+                    <label for="mail">email :- </label>&nbsp;&nbsp;
+                    <input type="mail" name="Email" id="mail">
+                </div>
+                <div>
+                    <label for="DOB">data of birth :- </label>&nbsp;&nbsp;
+                    <input type="date" name="dob" id="DOB">
+                </div>
+            </div><br>
+            <div>
+                <div>
+                    <label for="gender">gender :- </label>&nbsp;&nbsp;
+                    <select name="Gender" id="gender">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="others">others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="contact">phone no :- </label>&nbsp;&nbsp;
+                    <input type="no" name="ph" id="contact">
+                </div>
+            </div><br>
+            <div>
+                <div>
+                    <label for="course">course :- </label>&nbsp;&nbsp;
+                    <select name="Course" id="course">
+                        <option value="BCA">BCA</option>
+                        <option value="B.com">B.com</option>
+                        <option value="B.tech">B.tech</option>
+                        <option value="BBA">BBA</option>
+                        <option value="MBA">MBA</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="address">address :- </label>&nbsp;&nbsp;
+                    <input type="text" name="add" id="address">
+                </div>
+            </div><br>
+            <div>
+                <div>
+                    <button type="button" value="submit">submit</button>
+                </div>
+                <div>
+                    <button type="button" value="reset">reset</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
