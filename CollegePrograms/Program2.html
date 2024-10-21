@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .container {
+            border: 5px solid gray;
+            background-color: rgba(211, 211, 211, 0.595);
+            border-radius: 10px;
+            padding: 20px;
+            width: 40vw;
+            height: 50vh;
+            margin: auto;
+            display:flex;
+            justify-content: center;
+        }
+        .h{
+            margin-left:30px;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            let firstName = document.getElementById("firstName").value;
+            let lastName = document.getElementById("lastName").value;
+            let password = document.getElementById("password").value;
+            let email = document.getElementById("email").value;
+            let phone = document.getElementById("phone").value;
+            let address = document.getElementById("address").value;
+
+            let namePattern = /^[A-Za-z]{6,}$/;
+            if (!namePattern.test(firstName)) {
+                alert("First Name must contain only alphabets and be at least 6 characters long.");
+                return false;
+            }
+
+            if (lastName.trim() === "") {
+                alert("Last Name should not be empty.");
+                return false;
+            }
+
+            if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+
+            let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+            if (!emailPattern.test(email)) {
+                alert("Invalid Email format. Please use name@domain.com format.");
+                return false;
+            }
+
+            let phonePattern = /^\d{10}$/;
+            if (!phonePattern.test(phone)) {
+                alert("Phone number must contain exactly 10 digits.");
+                return false;
+            }
+
+            if (address.trim() === "") {
+                alert("Address should not be empty.");
+                return false;
+            }
+
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="return validateForm()">
+            <div class="h"><h2>Registration Form</h2></div>
+            <div class="fname"><label for="firstName">First Name:</label>&nbsp; &nbsp;
+                <input type="text" id="firstName" name="firstName" required>
+            </div><br>
+
+            <div class="lname"><label for="lastName">Last Name:</label>&nbsp; &nbsp;
+                <input type="text" id="lastName" name="lastName" required>
+            </div><br>
+
+            <div class="pass"><label for="password">Password:</label>&nbsp; &nbsp; &nbsp;
+                <input type="password" id="password" name="password" required>
+            </div><br>
+
+            <div class="mail"><label for="email">Email:</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="email" id="email" name="email" required>
+            </div><br>
+
+            <div class="contact"><label for="phone">Phone Number:</label>&nbsp; &nbsp;
+                <input type="text" id="phone" name="phone" required>
+            </div><br>
+
+            <div class="add"><label for="address">Address:</label>&nbsp; &nbsp;
+                <textarea id="address" name="address" required></textarea>
+            </div><br>
+
+            <div class="sub"><input type="submit" value="Register"></div><br>
+        </form>
+    </div>
+</body>
+
+</html>
