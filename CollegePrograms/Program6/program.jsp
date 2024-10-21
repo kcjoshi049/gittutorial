@@ -12,8 +12,8 @@
     <%
         out.println("<p>This is a dynamic message generated using the <strong>out</strong> implicit object.</p>");
     
-        String name = "John Doe";
-        int age = 25;
+        String name = "kamal chandra joshi";
+        int age = 22;
         out.println("<p>Name: " + name + "</p>");
         out.println("<p>Age: " + age + "</p>");
         
