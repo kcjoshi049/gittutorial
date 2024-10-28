@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+    <style>
+        h2{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .container {
+            margin-left: 200px;
+            margin-top:20px;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #ccc6c6;
+            width: 300px;
+            padding-right:40px;
+            box-shadow: 2px 3px 5px black;
+        }
+        input[type="text"] {
+            margin-right:0px;
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Email Validation</h2>
+    <input type="text" id="emailInput" placeholder="Enter your email">
+    <button onclick="checkEmail()">Validate Email</button>
+    <div id="result" class="result"></div>
+</div>
+
+<script>
+    function validateEmail(email) {
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        return emailPattern.test(email);
+    }
+
+    function checkEmail() {
+        const email = document.getElementById("emailInput").value;
+        const resultDiv = document.getElementById("result");
+
+        if (validateEmail(email)) {
+            resultDiv.textContent = "Valid email address.";
+            resultDiv.style.color = "green";
+        } else {
+            resultDiv.textContent = "Invalid email address.";
+            resultDiv.style.color = "red";
+        }
+    }
+</script>
+
+</body>
+</html>
